@@ -1,0 +1,96 @@
+[{"stream_name":"stdout","time":13.073236798,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":13.0733483,"data":"RangeIndex: 891 entries, 0 to 890\n"}
+,{"stream_name":"stdout","time":13.073367046,"data":"Data columns (total 12 columns):\n"}
+,{"stream_name":"stdout","time":13.073376105,"data":" #   Column       Non-Null Count  Dtype  \n"}
+,{"stream_name":"stdout","time":13.073382533,"data":"---  ------       --------------  -----  \n"}
+,{"stream_name":"stdout","time":13.073388632,"data":" 0   PassengerId  891 non-null    int64  \n"}
+,{"stream_name":"stdout","time":13.073394722,"data":" 1   Survived     891 non-null    int64  \n"}
+,{"stream_name":"stdout","time":13.073401298,"data":" 2   Pclass       891 non-null    int64  \n"}
+,{"stream_name":"stdout","time":13.073420037,"data":" 3   Name         891 non-null    object \n"}
+,{"stream_name":"stdout","time":13.073426587,"data":" 4   Sex          891 non-null    object \n"}
+,{"stream_name":"stdout","time":13.073432649,"data":" 5   Age          714 non-null    float64\n"}
+,{"stream_name":"stdout","time":13.073438836,"data":" 6   SibSp        891 non-null    int64  \n"}
+,{"stream_name":"stdout","time":13.073445005,"data":" 7   Parch        891 non-null    int64  \n"}
+,{"stream_name":"stdout","time":13.073450701,"data":" 8   Ticket       891 non-null    object \n"}
+,{"stream_name":"stdout","time":13.073456401,"data":" 9   Fare         891 non-null    float64\n"}
+,{"stream_name":"stdout","time":13.073461948,"data":" 10  Cabin        204 non-null    object \n"}
+,{"stream_name":"stdout","time":13.073467724,"data":" 11  Embarked     889 non-null    object \n"}
+,{"stream_name":"stdout","time":13.073473553,"data":"dtypes: float64(2), int64(5), object(5)\n"}
+,{"stream_name":"stdout","time":13.073479515,"data":"memory usage: 83.7+ KB\n"}
+,{"stream_name":"stdout","time":13.073485485,"data":"Survival rate for Class 1 is  0.63\n"}
+,{"stream_name":"stdout","time":13.073491682,"data":"Survival rate for Class 2 is  0.473\n"}
+,{"stream_name":"stdout","time":13.073643813,"data":"Survival rate for Class 3 is  0.242\n"}
+,{"stream_name":"stdout","time":13.073673269,"data":"Survival rate for Cherbourg is  0.554\n"}
+,{"stream_name":"stdout","time":13.073740166,"data":"Survival rate for Queenstown is  0.39\n"}
+,{"stream_name":"stdout","time":13.073777193,"data":"Survival rate for Southampton is  0.337\n"}
+,{"stream_name":"stdout","time":13.112129414,"data":"\n"}
+,{"stream_name":"stdout","time":13.112171929,"data":"Survived values are: [0 1]\n"}
+,{"stream_name":"stdout","time":13.11218141,"data":"\n"}
+,{"stream_name":"stdout","time":13.112187872,"data":"Pclass values are: [3 1 2]\n"}
+,{"stream_name":"stdout","time":13.112194001,"data":"\n"}
+,{"stream_name":"stdout","time":13.112200167,"data":"Sex values are: ['male' 'female']\n"}
+,{"stream_name":"stdout","time":13.112207023,"data":"\n"}
+,{"stream_name":"stdout","time":13.112212782,"data":"SibSp values are: [1 0 3 4 2 5 8]\n"}
+,{"stream_name":"stdout","time":13.112218976,"data":"\n"}
+,{"stream_name":"stdout","time":13.112224647,"data":"Parch values are: [0 1 2 5 3 4 6]\n"}
+,{"stream_name":"stdout","time":13.112230412,"data":"\n"}
+,{"stream_name":"stdout","time":13.112236592,"data":"Embarked values are: ['S' 'C' 'Q' nan]\n"}
+,{"stream_name":"stdout","time":13.149863185,"data":"Pearson correlation between SibSp and Parch: r = 0.415\n"}
+,{"stream_name":"stdout","time":13.216080531,"data":"The number of missing values for each column is shown below:\n"}
+,{"stream_name":"stdout","time":13.216116099,"data":"\n"}
+,{"stream_name":"stdout","time":13.216144927,"data":"PassengerId      0\n"}
+,{"stream_name":"stdout","time":13.21615337,"data":"Survived         0\n"}
+,{"stream_name":"stdout","time":13.216160224,"data":"Pclass           0\n"}
+,{"stream_name":"stdout","time":13.216166817,"data":"Name             0\n"}
+,{"stream_name":"stdout","time":13.216173989,"data":"Sex              0\n"}
+,{"stream_name":"stdout","time":13.216180563,"data":"Age            177\n"}
+,{"stream_name":"stdout","time":13.216185923,"data":"SibSp            0\n"}
+,{"stream_name":"stdout","time":13.216192288,"data":"Parch            0\n"}
+,{"stream_name":"stdout","time":13.216198856,"data":"Ticket           0\n"}
+,{"stream_name":"stdout","time":13.216204411,"data":"Fare             0\n"}
+,{"stream_name":"stdout","time":13.21620995,"data":"Cabin          687\n"}
+,{"stream_name":"stdout","time":13.216215385,"data":"Embarked         2\n"}
+,{"stream_name":"stdout","time":13.216220995,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":13.216226171,"data":"\n"}
+,{"stream_name":"stdout","time":13.216231346,"data":"The number of missing values for each column after imputation is shown below:\n"}
+,{"stream_name":"stdout","time":13.216238679,"data":"\n"}
+,{"stream_name":"stdout","time":13.21624476,"data":"PassengerId      0\n"}
+,{"stream_name":"stdout","time":13.216250654,"data":"Survived         0\n"}
+,{"stream_name":"stdout","time":13.216256579,"data":"Pclass           0\n"}
+,{"stream_name":"stdout","time":13.21626264,"data":"Name             0\n"}
+,{"stream_name":"stdout","time":13.216268431,"data":"Sex              0\n"}
+,{"stream_name":"stdout","time":13.216274404,"data":"Age              0\n"}
+,{"stream_name":"stdout","time":13.216280243,"data":"SibSp            0\n"}
+,{"stream_name":"stdout","time":13.216286041,"data":"Parch            0\n"}
+,{"stream_name":"stdout","time":13.21629206,"data":"Ticket           0\n"}
+,{"stream_name":"stdout","time":13.216297886,"data":"Fare             0\n"}
+,{"stream_name":"stdout","time":13.216303726,"data":"Cabin          687\n"}
+,{"stream_name":"stdout","time":13.216309606,"data":"Embarked         0\n"}
+,{"stream_name":"stdout","time":13.216315573,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":13.267081875,"data":"The number of missing values in the test data for each column is shown below:\n"}
+,{"stream_name":"stdout","time":13.2671464,"data":"\n"}
+,{"stream_name":"stdout","time":13.267153729,"data":"PassengerId      0\n"}
+,{"stream_name":"stdout","time":13.26715885,"data":"Pclass           0\n"}
+,{"stream_name":"stdout","time":13.267163112,"data":"Name             0\n"}
+,{"stream_name":"stdout","time":13.267167249,"data":"Sex              0\n"}
+,{"stream_name":"stdout","time":13.267171332,"data":"Age             86\n"}
+,{"stream_name":"stdout","time":13.267175529,"data":"SibSp            0\n"}
+,{"stream_name":"stdout","time":13.267179647,"data":"Parch            0\n"}
+,{"stream_name":"stdout","time":13.267183896,"data":"Ticket           0\n"}
+,{"stream_name":"stdout","time":13.267188103,"data":"Fare             1\n"}
+,{"stream_name":"stdout","time":13.267192208,"data":"Cabin          327\n"}
+,{"stream_name":"stdout","time":13.267196215,"data":"Embarked         0\n"}
+,{"stream_name":"stdout","time":13.267200372,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":13.708884744,"data":"Your submission was successfully saved!\n"}
+,{"stream_name":"stderr","time":76.373446946,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":76.373590129,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":76.373598955,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":76.686506211,"data":"[NbConvertApp] Writing 75169 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":79.467126828,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":79.467179629,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":79.467185909,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":80.316982814,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":80.317033021,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":80.317460002,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":80.317876139,"data":"[NbConvertApp] Writing 321740 bytes to __results__.html\n"}
+]
